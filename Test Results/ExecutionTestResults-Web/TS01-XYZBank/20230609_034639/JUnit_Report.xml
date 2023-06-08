@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01-XYZBank" time="76.928" tests="2" failures="0" errors="0">
+   <testsuite name="TS01-XYZBank" tests="2" failures="0" errors="0" time="76.928" skipped="0" timestamp="2023-06-09 03:47:05" hostname="irfandy - 192.168.100.42" id="Test Suites/TS01-XYZBank">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/irfandy/Projects/seb-qa-task-katalon/Reports/20230609_034639/TS01-XYZBank/20230609_034639"/>
+         <property name="logFiles" value="/Users/irfandy/Projects/seb-qa-task-katalon/Reports/20230609_034639/TS01-XYZBank/20230609_034639/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="irfandy - 192.168.100.42"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.42"/>
+         <property name="sessionId" value="d304690962194d106c1ece2838a5e496"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/e2e/T01-Bank Manager Login-Create and Delete Customers" time="43.772" classname="Test Cases/e2e/T01-Bank Manager Login-Create and Delete Customers" status="PASSED">
+         <system-out><![CDATA[2023-06-09 03:47:06 - [TEST_CASE][PASSED] - Test Cases/e2e/T01-Bank Manager Login-Create and Delete Customers: Test Cases/e2e/T01-Bank Manager Login-Create and Delete Customers
+
+2023-06-09 03:47:06 - [TEST_STEP][PASSED] - customerDataPath = "Data Files/CustomersData": null
+
+2023-06-09 03:47:06 - [TEST_STEP][PASSED] - customerToDeletePath = "Data Files/CustomersDataToDelete": null
+
+2023-06-09 03:47:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/login/Login as Bank Manager"), null): Call Test Case 'Test Cases/modules/login/Login as Bank Manager' successfully
+
+2023-06-09 03:47:06 - [TEST_CASE][PASSED] - Test Cases/modules/login/Login as Bank Manager: Test Cases/modules/login/Login as Bank Manager
+
+2023-06-09 03:47:07 - [TEST_STEP][PASSED] - elementsToVerify = [findTestObject("Web-XYZBank/bank-manager-login/add-customer/button_Add Customer Tab"), findTestObject("Web-XYZBank/bank-manager-login/customers/button_Customers Tab"), findTestObject("Web-XYZBank/bank-manager-login/open-account/button_Open Account Tab")]: null
+
+2023-06-09 03:47:07 - [TEST_STEP][PASSED] - openBrowser(indexURL): Browser is opened with url: 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login'
+
+2023-06-09 03:47:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-09 03:47:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-09 03:47:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login'
+
+2023-06-09 03:47:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-09 03:47:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-09 03:47:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/home-page/header_XYZ Bank"), 20): Object 'Object Repository/Web-XYZBank/home-page/header_XYZ Bank' is present
+
+2023-06-09 03:47:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/home-page/header_XYZ Bank' is present
+
+2023-06-09 03:47:13 - [TEST_STEP][PASSED] - pageTitle = getWindowTitle(): Current window's title is: 'XYZ Bank'
+
+2023-06-09 03:47:13 - [MESSAGE][PASSED] - Current window's title is: 'XYZ Bank'
+
+2023-06-09 03:47:14 - [TEST_STEP][PASSED] - verifyEqual(pageTitle, "XYZ Bank"): Actual object 'XYZ Bank' and expected object 'XYZ Bank' are equal
+
+2023-06-09 03:47:14 - [MESSAGE][PASSED] - Actual object 'XYZ Bank' and expected object 'XYZ Bank' are equal
+
+2023-06-09 03:47:14 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/home-page/button_Bank Manager Login")): Object: 'Object Repository/Web-XYZBank/home-page/button_Bank Manager Login' is clicked on
+
+2023-06-09 03:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/home-page/button_Bank Manager Login' is clicked on
+
+2023-06-09 03:47:14 - [TEST_STEP][PASSED] - common.webGeneral.verifyElementsPresent(elementsToVerify, 10): common.webGeneral.verifyElementsPresent is PASSED
+
+2023-06-09 03:47:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer Tab' is present
+
+2023-06-09 03:47:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/button_Customers Tab' is present
+
+2023-06-09 03:47:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/open-account/button_Open Account Tab' is present
+
+2023-06-09 03:47:15 - [MESSAGE][PASSED] - common.webGeneral.verifyElementsPresent is PASSED
+
+2023-06-09 03:47:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/login/Login as Bank Manager' successfully
+
+2023-06-09 03:47:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/bank-manager-login/add-customer/Add Customers"), ["dataPath":customerDataPath]): Call Test Case 'Test Cases/modules/bank-manager-login/add-customer/Add Customers' successfully
+
+2023-06-09 03:47:15 - [TEST_CASE][PASSED] - Test Cases/modules/bank-manager-login/add-customer/Add Customers: Test Cases/modules/bank-manager-login/add-customer/Add Customers
+
+2023-06-09 03:47:16 - [TEST_STEP][PASSED] - testData = findTestData(dataPath): null
+
+2023-06-09 03:47:16 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/bank-manager-login/add-customer/button_Add Customer Tab")): Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer Tab' is clicked on
+
+2023-06-09 03:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer Tab' is clicked on
+
+2023-06-09 03:47:16 - [TEST_STEP][PASSED] - firstNameInput = findTestObject("Web-XYZBank/bank-manager-login/add-customer/input_First Name"): null
+
+2023-06-09 03:47:16 - [TEST_STEP][PASSED] - lastNameInput = findTestObject("Web-XYZBank/bank-manager-login/add-customer/input_Last Name"): null
+
+2023-06-09 03:47:16 - [TEST_STEP][PASSED] - postCodeInput = findTestObject("Web-XYZBank/bank-manager-login/add-customer/input_Post Code"): null
+
+2023-06-09 03:47:17 - [TEST_STEP][PASSED] - addCustomerButton = findTestObject("Web-XYZBank/bank-manager-login/add-customer/button_Add Customer"): null
+
+2023-06-09 03:47:17 - [TEST_STEP][PASSED] - totalCustomerAdded = 0: null
+
+2023-06-09 03:47:17 - [TEST_STEP][PASSED] - for ([index = 1, index <= testData.getRowNumbers(), (index++)]): null
+
+2023-06-09 03:47:17 - [TEST_STEP][PASSED] - comment("***** Customer No " + index + " *****"): ***** Customer No 1 *****
+
+2023-06-09 03:47:17 - [MESSAGE][INFO] - ***** Customer No 1 *****
+
+2023-06-09 03:47:17 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:17 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:17 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:17 - [TEST_STEP][PASSED] - waitForElementVisible(firstNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:17 - [TEST_STEP][PASSED] - setText(firstNameInput, firstName): Text 'Christopher' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:18 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:18 - [TEST_STEP][PASSED] - waitForElementVisible(lastNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:18 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:18 - [TEST_STEP][PASSED] - setText(lastNameInput, lastName): Text 'Connely' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:19 - [MESSAGE][PASSED] - Text 'Connely' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:19 - [TEST_STEP][PASSED] - waitForElementVisible(postCodeInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:19 - [TEST_STEP][PASSED] - setText(postCodeInput, postCode): Text 'L789C349' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:20 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:20 - [TEST_STEP][PASSED] - waitForElementClickable(addCustomerButton, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:20 - [TEST_STEP][PASSED] - click(addCustomerButton): Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:20 - [TEST_STEP][PASSED] - if (verifyAlertPresent(2, OPTIONAL)): null
+
+2023-06-09 03:47:20 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2023-06-09 03:47:20 - [TEST_STEP][PASSED] - alertText = getAlertText(): Get alert text successfully: 'Customer added successfully with customer id :6'
+
+2023-06-09 03:47:21 - [MESSAGE][PASSED] - Get alert text successfully: 'Customer added successfully with customer id :6'
+
+2023-06-09 03:47:21 - [TEST_STEP][PASSED] - comment("Alert Text: " + alertText): Alert Text: Customer added successfully with customer id :6
+
+2023-06-09 03:47:21 - [MESSAGE][INFO] - Alert Text: Customer added successfully with customer id :6
+
+2023-06-09 03:47:21 - [TEST_STEP][PASSED] - verifyMatch(alertText, "Customer added successfully with customer id :(\d+)", true): Actual text 'Customer added successfully with customer id :6' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:21 - [MESSAGE][PASSED] - Actual text 'Customer added successfully with customer id :6' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:21 - [TEST_STEP][PASSED] - (totalCustomerAdded++): null
+
+2023-06-09 03:47:21 - [TEST_STEP][PASSED] - comment("***** Customer No " + index + " *****"): ***** Customer No 2 *****
+
+2023-06-09 03:47:21 - [MESSAGE][INFO] - ***** Customer No 2 *****
+
+2023-06-09 03:47:21 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:21 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:21 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:21 - [TEST_STEP][PASSED] - waitForElementVisible(firstNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:21 - [TEST_STEP][PASSED] - setText(firstNameInput, firstName): Text 'Frank' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:21 - [MESSAGE][PASSED] - Text 'Frank' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:21 - [TEST_STEP][PASSED] - waitForElementVisible(lastNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:22 - [TEST_STEP][PASSED] - setText(lastNameInput, lastName): Text 'Christopher' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:22 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:22 - [TEST_STEP][PASSED] - waitForElementVisible(postCodeInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:23 - [TEST_STEP][PASSED] - setText(postCodeInput, postCode): Text 'A897N450' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:23 - [MESSAGE][PASSED] - Text 'A897N450' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:23 - [TEST_STEP][PASSED] - waitForElementClickable(addCustomerButton, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - click(addCustomerButton): Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - if (verifyAlertPresent(2, OPTIONAL)): null
+
+2023-06-09 03:47:24 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - alertText = getAlertText(): Get alert text successfully: 'Customer added successfully with customer id :7'
+
+2023-06-09 03:47:24 - [MESSAGE][PASSED] - Get alert text successfully: 'Customer added successfully with customer id :7'
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - comment("Alert Text: " + alertText): Alert Text: Customer added successfully with customer id :7
+
+2023-06-09 03:47:24 - [MESSAGE][INFO] - Alert Text: Customer added successfully with customer id :7
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - verifyMatch(alertText, "Customer added successfully with customer id :(\d+)", true): Actual text 'Customer added successfully with customer id :7' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:24 - [MESSAGE][PASSED] - Actual text 'Customer added successfully with customer id :7' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - (totalCustomerAdded++): null
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - comment("***** Customer No " + index + " *****"): ***** Customer No 3 *****
+
+2023-06-09 03:47:24 - [MESSAGE][INFO] - ***** Customer No 3 *****
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - waitForElementVisible(firstNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:24 - [TEST_STEP][PASSED] - setText(firstNameInput, firstName): Text 'Christopher' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:25 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:25 - [TEST_STEP][PASSED] - waitForElementVisible(lastNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:25 - [TEST_STEP][PASSED] - setText(lastNameInput, lastName): Text 'Minka' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:26 - [MESSAGE][PASSED] - Text 'Minka' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:26 - [TEST_STEP][PASSED] - waitForElementVisible(postCodeInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:26 - [TEST_STEP][PASSED] - setText(postCodeInput, postCode): Text 'M098Q585' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:27 - [MESSAGE][PASSED] - Text 'M098Q585' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:27 - [TEST_STEP][PASSED] - waitForElementClickable(addCustomerButton, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:27 - [TEST_STEP][PASSED] - click(addCustomerButton): Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - if (verifyAlertPresent(2, OPTIONAL)): null
+
+2023-06-09 03:47:28 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - alertText = getAlertText(): Get alert text successfully: 'Customer added successfully with customer id :8'
+
+2023-06-09 03:47:28 - [MESSAGE][PASSED] - Get alert text successfully: 'Customer added successfully with customer id :8'
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - comment("Alert Text: " + alertText): Alert Text: Customer added successfully with customer id :8
+
+2023-06-09 03:47:28 - [MESSAGE][INFO] - Alert Text: Customer added successfully with customer id :8
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - verifyMatch(alertText, "Customer added successfully with customer id :(\d+)", true): Actual text 'Customer added successfully with customer id :8' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:28 - [MESSAGE][PASSED] - Actual text 'Customer added successfully with customer id :8' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - (totalCustomerAdded++): null
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - comment("***** Customer No " + index + " *****"): ***** Customer No 4 *****
+
+2023-06-09 03:47:28 - [MESSAGE][INFO] - ***** Customer No 4 *****
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - waitForElementVisible(firstNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:28 - [TEST_STEP][PASSED] - setText(firstNameInput, firstName): Text 'Connely' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:29 - [MESSAGE][PASSED] - Text 'Connely' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:29 - [TEST_STEP][PASSED] - waitForElementVisible(lastNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:29 - [TEST_STEP][PASSED] - setText(lastNameInput, lastName): Text 'Jackson' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:30 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:30 - [TEST_STEP][PASSED] - waitForElementVisible(postCodeInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:30 - [TEST_STEP][PASSED] - setText(postCodeInput, postCode): Text 'L789C349' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:30 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:30 - [TEST_STEP][PASSED] - waitForElementClickable(addCustomerButton, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - click(addCustomerButton): Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - if (verifyAlertPresent(2, OPTIONAL)): null
+
+2023-06-09 03:47:31 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - alertText = getAlertText(): Get alert text successfully: 'Customer added successfully with customer id :9'
+
+2023-06-09 03:47:31 - [MESSAGE][PASSED] - Get alert text successfully: 'Customer added successfully with customer id :9'
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - comment("Alert Text: " + alertText): Alert Text: Customer added successfully with customer id :9
+
+2023-06-09 03:47:31 - [MESSAGE][INFO] - Alert Text: Customer added successfully with customer id :9
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - verifyMatch(alertText, "Customer added successfully with customer id :(\d+)", true): Actual text 'Customer added successfully with customer id :9' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:31 - [MESSAGE][PASSED] - Actual text 'Customer added successfully with customer id :9' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - (totalCustomerAdded++): null
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - comment("***** Customer No " + index + " *****"): ***** Customer No 5 *****
+
+2023-06-09 03:47:31 - [MESSAGE][INFO] - ***** Customer No 5 *****
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - waitForElementVisible(firstNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:31 - [TEST_STEP][PASSED] - setText(firstNameInput, firstName): Text 'Jackson' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:32 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:32 - [TEST_STEP][PASSED] - waitForElementVisible(lastNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:32 - [TEST_STEP][PASSED] - setText(lastNameInput, lastName): Text 'Frank' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:33 - [MESSAGE][PASSED] - Text 'Frank' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:33 - [TEST_STEP][PASSED] - waitForElementVisible(postCodeInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:33 - [TEST_STEP][PASSED] - setText(postCodeInput, postCode): Text 'L789C349' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:34 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:34 - [TEST_STEP][PASSED] - waitForElementClickable(addCustomerButton, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:34 - [TEST_STEP][PASSED] - click(addCustomerButton): Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - if (verifyAlertPresent(2, OPTIONAL)): null
+
+2023-06-09 03:47:35 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - alertText = getAlertText(): Get alert text successfully: 'Customer added successfully with customer id :10'
+
+2023-06-09 03:47:35 - [MESSAGE][PASSED] - Get alert text successfully: 'Customer added successfully with customer id :10'
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - comment("Alert Text: " + alertText): Alert Text: Customer added successfully with customer id :10
+
+2023-06-09 03:47:35 - [MESSAGE][INFO] - Alert Text: Customer added successfully with customer id :10
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - verifyMatch(alertText, "Customer added successfully with customer id :(\d+)", true): Actual text 'Customer added successfully with customer id :10' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:35 - [MESSAGE][PASSED] - Actual text 'Customer added successfully with customer id :10' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - (totalCustomerAdded++): null
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - comment("***** Customer No " + index + " *****"): ***** Customer No 6 *****
+
+2023-06-09 03:47:35 - [MESSAGE][INFO] - ***** Customer No 6 *****
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - waitForElementVisible(firstNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:35 - [TEST_STEP][PASSED] - setText(firstNameInput, firstName): Text 'Minka' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:36 - [MESSAGE][PASSED] - Text 'Minka' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:36 - [TEST_STEP][PASSED] - waitForElementVisible(lastNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:36 - [TEST_STEP][PASSED] - setText(lastNameInput, lastName): Text 'Jackson' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:37 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:37 - [TEST_STEP][PASSED] - waitForElementVisible(postCodeInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:37 - [TEST_STEP][PASSED] - setText(postCodeInput, postCode): Text 'A897N450' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:37 - [MESSAGE][PASSED] - Text 'A897N450' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:37 - [TEST_STEP][PASSED] - waitForElementClickable(addCustomerButton, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - click(addCustomerButton): Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - if (verifyAlertPresent(2, OPTIONAL)): null
+
+2023-06-09 03:47:38 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - alertText = getAlertText(): Get alert text successfully: 'Customer added successfully with customer id :11'
+
+2023-06-09 03:47:38 - [MESSAGE][PASSED] - Get alert text successfully: 'Customer added successfully with customer id :11'
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - comment("Alert Text: " + alertText): Alert Text: Customer added successfully with customer id :11
+
+2023-06-09 03:47:38 - [MESSAGE][INFO] - Alert Text: Customer added successfully with customer id :11
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - verifyMatch(alertText, "Customer added successfully with customer id :(\d+)", true): Actual text 'Customer added successfully with customer id :11' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:38 - [MESSAGE][PASSED] - Actual text 'Customer added successfully with customer id :11' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - (totalCustomerAdded++): null
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - comment("***** Customer No " + index + " *****"): ***** Customer No 7 *****
+
+2023-06-09 03:47:38 - [MESSAGE][INFO] - ***** Customer No 7 *****
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - waitForElementVisible(firstNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name' is visible
+
+2023-06-09 03:47:38 - [TEST_STEP][PASSED] - setText(firstNameInput, firstName): Text 'Jackson' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:39 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_First Name'
+
+2023-06-09 03:47:39 - [TEST_STEP][PASSED] - waitForElementVisible(lastNameInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name' is visible
+
+2023-06-09 03:47:39 - [TEST_STEP][PASSED] - setText(lastNameInput, lastName): Text 'Connely' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:40 - [MESSAGE][PASSED] - Text 'Connely' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Last Name'
+
+2023-06-09 03:47:40 - [TEST_STEP][PASSED] - waitForElementVisible(postCodeInput, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code' is visible
+
+2023-06-09 03:47:40 - [TEST_STEP][PASSED] - setText(postCodeInput, postCode): Text 'L789C349' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:41 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/input_Post Code'
+
+2023-06-09 03:47:41 - [TEST_STEP][PASSED] - waitForElementClickable(addCustomerButton, 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clickable
+
+2023-06-09 03:47:41 - [TEST_STEP][PASSED] - click(addCustomerButton): Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/add-customer/button_Add Customer' is clicked on
+
+2023-06-09 03:47:42 - [TEST_STEP][PASSED] - if (verifyAlertPresent(2, OPTIONAL)): null
+
+2023-06-09 03:47:42 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2023-06-09 03:47:42 - [TEST_STEP][PASSED] - alertText = getAlertText(): Get alert text successfully: 'Customer added successfully with customer id :12'
+
+2023-06-09 03:47:42 - [MESSAGE][PASSED] - Get alert text successfully: 'Customer added successfully with customer id :12'
+
+2023-06-09 03:47:42 - [TEST_STEP][PASSED] - comment("Alert Text: " + alertText): Alert Text: Customer added successfully with customer id :12
+
+2023-06-09 03:47:42 - [MESSAGE][INFO] - Alert Text: Customer added successfully with customer id :12
+
+2023-06-09 03:47:42 - [TEST_STEP][PASSED] - verifyMatch(alertText, "Customer added successfully with customer id :(\d+)", true): Actual text 'Customer added successfully with customer id :12' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:42 - [MESSAGE][PASSED] - Actual text 'Customer added successfully with customer id :12' and expected text 'Customer added successfully with customer id :(\d+)' are matched  using regular expression
+
+2023-06-09 03:47:42 - [TEST_STEP][PASSED] - (totalCustomerAdded++): null
+
+2023-06-09 03:47:42 - [TEST_STEP][PASSED] - comment("Total New Customers Added: " + totalCustomerAdded): Total New Customers Added: 7
+
+2023-06-09 03:47:42 - [MESSAGE][INFO] - Total New Customers Added: 7
+
+2023-06-09 03:47:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/bank-manager-login/add-customer/Add Customers' successfully
+
+2023-06-09 03:47:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/bank-manager-login/customers/Verify Customers Added in Customers Record"), ["dataPath":customerDataPath]): Call Test Case 'Test Cases/modules/bank-manager-login/customers/Verify Customers Added in Customers Record' successfully
+
+2023-06-09 03:47:42 - [TEST_CASE][PASSED] - Test Cases/modules/bank-manager-login/customers/Verify Customers Added in Customers Record: Test Cases/modules/bank-manager-login/customers/Verify Customers Added in Customers Record
+
+2023-06-09 03:47:42 - [TEST_STEP][PASSED] - testData = findTestData(dataPath): null
+
+2023-06-09 03:47:42 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/bank-manager-login/customers/button_Customers Tab")): Object: 'Object Repository/Web-XYZBank/bank-manager-login/customers/button_Customers Tab' is clicked on
+
+2023-06-09 03:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/customers/button_Customers Tab' is clicked on
+
+2023-06-09 03:47:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/bank-manager-login/customers/table_Customers"), 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/table_Customers' is present
+
+2023-06-09 03:47:43 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/table_Customers' is present
+
+2023-06-09 03:47:43 - [TEST_STEP][PASSED] - allDataPresent = true: null
+
+2023-06-09 03:47:43 - [TEST_STEP][PASSED] - for ([index = 1, index <= testData.getRowNumbers(), (index++)]): First Name: Jackson, Last Name: Connely, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:43 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:43 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:43 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:43 - [TEST_STEP][PASSED] - if (!(verifyElementVisible(findTestObject("Web-XYZBank/bank-manager-login/customers/tr_CustomerData", ["firstName":firstName, "lastName":lastName, "postCode":postCode])))): Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - else: First Name: Christopher, Last Name: Connely, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - comment(First Name: $firstName, Last Name: $lastName, Post Code: $postCode --> This data is present inside the table): First Name: Christopher, Last Name: Connely, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:44 - [MESSAGE][INFO] - First Name: Christopher, Last Name: Connely, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - if (!(verifyElementVisible(findTestObject("Web-XYZBank/bank-manager-login/customers/tr_CustomerData", ["firstName":firstName, "lastName":lastName, "postCode":postCode])))): Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - else: First Name: Frank, Last Name: Christopher, Post Code: A897N450 --> This data is present inside the table
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - comment(First Name: $firstName, Last Name: $lastName, Post Code: $postCode --> This data is present inside the table): First Name: Frank, Last Name: Christopher, Post Code: A897N450 --> This data is present inside the table
+
+2023-06-09 03:47:44 - [MESSAGE][INFO] - First Name: Frank, Last Name: Christopher, Post Code: A897N450 --> This data is present inside the table
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:44 - [TEST_STEP][PASSED] - if (!(verifyElementVisible(findTestObject("Web-XYZBank/bank-manager-login/customers/tr_CustomerData", ["firstName":firstName, "lastName":lastName, "postCode":postCode])))): Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - else: First Name: Christopher, Last Name: Minka, Post Code: M098Q585 --> This data is present inside the table
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - comment(First Name: $firstName, Last Name: $lastName, Post Code: $postCode --> This data is present inside the table): First Name: Christopher, Last Name: Minka, Post Code: M098Q585 --> This data is present inside the table
+
+2023-06-09 03:47:45 - [MESSAGE][INFO] - First Name: Christopher, Last Name: Minka, Post Code: M098Q585 --> This data is present inside the table
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - if (!(verifyElementVisible(findTestObject("Web-XYZBank/bank-manager-login/customers/tr_CustomerData", ["firstName":firstName, "lastName":lastName, "postCode":postCode])))): Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - else: First Name: Connely, Last Name: Jackson, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - comment(First Name: $firstName, Last Name: $lastName, Post Code: $postCode --> This data is present inside the table): First Name: Connely, Last Name: Jackson, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:45 - [MESSAGE][INFO] - First Name: Connely, Last Name: Jackson, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - if (!(verifyElementVisible(findTestObject("Web-XYZBank/bank-manager-login/customers/tr_CustomerData", ["firstName":firstName, "lastName":lastName, "postCode":postCode])))): Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - else: First Name: Jackson, Last Name: Frank, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - comment(First Name: $firstName, Last Name: $lastName, Post Code: $postCode --> This data is present inside the table): First Name: Jackson, Last Name: Frank, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:45 - [MESSAGE][INFO] - First Name: Jackson, Last Name: Frank, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:45 - [TEST_STEP][PASSED] - if (!(verifyElementVisible(findTestObject("Web-XYZBank/bank-manager-login/customers/tr_CustomerData", ["firstName":firstName, "lastName":lastName, "postCode":postCode])))): Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - else: First Name: Minka, Last Name: Jackson, Post Code: A897N450 --> This data is present inside the table
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - comment(First Name: $firstName, Last Name: $lastName, Post Code: $postCode --> This data is present inside the table): First Name: Minka, Last Name: Jackson, Post Code: A897N450 --> This data is present inside the table
+
+2023-06-09 03:47:46 - [MESSAGE][INFO] - First Name: Minka, Last Name: Jackson, Post Code: A897N450 --> This data is present inside the table
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - if (!(verifyElementVisible(findTestObject("Web-XYZBank/bank-manager-login/customers/tr_CustomerData", ["firstName":firstName, "lastName":lastName, "postCode":postCode])))): Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' is visible
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - else: First Name: Jackson, Last Name: Connely, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - comment(First Name: $firstName, Last Name: $lastName, Post Code: $postCode --> This data is present inside the table): First Name: Jackson, Last Name: Connely, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:46 - [MESSAGE][INFO] - First Name: Jackson, Last Name: Connely, Post Code: L789C349 --> This data is present inside the table
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - assert allDataPresent == true : "There are missing customer data inside the customers table!": null
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - comment("Verified that all customers data added is present in the customers table"): Verified that all customers data added is present in the customers table
+
+2023-06-09 03:47:46 - [MESSAGE][INFO] - Verified that all customers data added is present in the customers table
+
+2023-06-09 03:47:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/bank-manager-login/customers/Verify Customers Added in Customers Record' successfully
+
+2023-06-09 03:47:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/bank-manager-login/customers/Delete Customers"), ["dataPath":customerToDeletePath]): Call Test Case 'Test Cases/modules/bank-manager-login/customers/Delete Customers' successfully
+
+2023-06-09 03:47:46 - [TEST_CASE][PASSED] - Test Cases/modules/bank-manager-login/customers/Delete Customers: Test Cases/modules/bank-manager-login/customers/Delete Customers
+
+2023-06-09 03:47:47 - [TEST_STEP][PASSED] - testData = findTestData(dataPath): null
+
+2023-06-09 03:47:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/bank-manager-login/customers/table_Customers"), 10): Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/table_Customers' is present
+
+2023-06-09 03:47:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/bank-manager-login/customers/table_Customers' is present
+
+2023-06-09 03:47:47 - [TEST_STEP][PASSED] - for ([index = 1, index <= testData.getRowNumbers(), (index++)]): Verified that the customer data for --> First Name: Jackson, Last Name: Frank, Post Code: L789C349 have been deleted successfully
+
+2023-06-09 03:47:47 - [TEST_STEP][PASSED] - comment("***** Customer No " + index + " *****"): ***** Customer No 1 *****
+
+2023-06-09 03:47:47 - [MESSAGE][INFO] - ***** Customer No 1 *****
+
+2023-06-09 03:47:47 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:47 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:47 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:47 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/bank-manager-login/customers/button_Delete Specific", ["firstName":firstName, "lastName":lastName, "postCode":postCode])): Object: 'Object Repository/Web-XYZBank/bank-manager-login/customers/button_Delete Specific' is clicked on
+
+2023-06-09 03:47:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/customers/button_Delete Specific' is clicked on
+
+2023-06-09 03:47:47 - [TEST_STEP][PASSED] - isDeleted = verifyElementNotPresent(findTestObject("Web-XYZBank/bank-manager-login/customers/tr_CustomerData", ["firstName":firstName, "lastName":lastName, "postCode":postCode]), 1): Web element with id: 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' located by 'By.xpath: (//td[contains(text(), 'Christopher')]/following-sibling::td[contains(text(), 'Connely')]/following-sibling::td[contains(text(), 'L789C349')])[1]/parent::tr' is not present after '1' second(s)
+
+2023-06-09 03:47:48 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' located by 'By.xpath: (//td[contains(text(), 'Christopher')]/following-sibling::td[contains(text(), 'Connely')]/following-sibling::td[contains(text(), 'L789C349')])[1]/parent::tr' is not present after '1' second(s)
+
+2023-06-09 03:47:48 - [TEST_STEP][PASSED] - assert isDeleted == true : "The customer data is not deleted from the Customers table!": null
+
+2023-06-09 03:47:48 - [TEST_STEP][PASSED] - comment(Verified that the customer data for --> First Name: $firstName, Last Name: $lastName, Post Code: $postCode have been deleted successfully): Verified that the customer data for --> First Name: Christopher, Last Name: Connely, Post Code: L789C349 have been deleted successfully
+
+2023-06-09 03:47:48 - [MESSAGE][INFO] - Verified that the customer data for --> First Name: Christopher, Last Name: Connely, Post Code: L789C349 have been deleted successfully
+
+2023-06-09 03:47:48 - [TEST_STEP][PASSED] - comment("***** Customer No " + index + " *****"): ***** Customer No 2 *****
+
+2023-06-09 03:47:48 - [MESSAGE][INFO] - ***** Customer No 2 *****
+
+2023-06-09 03:47:48 - [TEST_STEP][PASSED] - firstName = testData.getValue("First Name", index): null
+
+2023-06-09 03:47:48 - [TEST_STEP][PASSED] - lastName = testData.getValue("Last Name", index): null
+
+2023-06-09 03:47:48 - [TEST_STEP][PASSED] - postCode = testData.getValue("Post Code", index): null
+
+2023-06-09 03:47:48 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/bank-manager-login/customers/button_Delete Specific", ["firstName":firstName, "lastName":lastName, "postCode":postCode])): Object: 'Object Repository/Web-XYZBank/bank-manager-login/customers/button_Delete Specific' is clicked on
+
+2023-06-09 03:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/bank-manager-login/customers/button_Delete Specific' is clicked on
+
+2023-06-09 03:47:48 - [TEST_STEP][PASSED] - isDeleted = verifyElementNotPresent(findTestObject("Web-XYZBank/bank-manager-login/customers/tr_CustomerData", ["firstName":firstName, "lastName":lastName, "postCode":postCode]), 1): Web element with id: 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' located by 'By.xpath: (//td[contains(text(), 'Jackson')]/following-sibling::td[contains(text(), 'Frank')]/following-sibling::td[contains(text(), 'L789C349')])[1]/parent::tr' is not present after '1' second(s)
+
+2023-06-09 03:47:49 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Web-XYZBank/bank-manager-login/customers/tr_CustomerData' located by 'By.xpath: (//td[contains(text(), 'Jackson')]/following-sibling::td[contains(text(), 'Frank')]/following-sibling::td[contains(text(), 'L789C349')])[1]/parent::tr' is not present after '1' second(s)
+
+2023-06-09 03:47:49 - [TEST_STEP][PASSED] - assert isDeleted == true : "The customer data is not deleted from the Customers table!": null
+
+2023-06-09 03:47:49 - [TEST_STEP][PASSED] - comment(Verified that the customer data for --> First Name: $firstName, Last Name: $lastName, Post Code: $postCode have been deleted successfully): Verified that the customer data for --> First Name: Jackson, Last Name: Frank, Post Code: L789C349 have been deleted successfully
+
+2023-06-09 03:47:49 - [MESSAGE][INFO] - Verified that the customer data for --> First Name: Jackson, Last Name: Frank, Post Code: L789C349 have been deleted successfully
+
+2023-06-09 03:47:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/bank-manager-login/customers/Delete Customers' successfully
+
+2023-06-09 03:47:49 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-06-09 03:47:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-09 03:47:49 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-09 03:47:49 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/e2e/T02-Customer Login-Perform Debit and Credit Transactions" time="32.618" classname="Test Cases/e2e/T02-Customer Login-Perform Debit and Credit Transactions" status="PASSED">
+         <system-out><![CDATA[2023-06-09 03:47:49 - [TEST_CASE][PASSED] - Test Cases/e2e/T02-Customer Login-Perform Debit and Credit Transactions: Test Cases/e2e/T02-Customer Login-Perform Debit and Credit Transactions
+
+2023-06-09 03:47:50 - [TEST_STEP][PASSED] - transactionDataPath = "Data Files/Transactions": null
+
+2023-06-09 03:47:50 - [TEST_STEP][PASSED] - customerName = "Hermoine Granger": null
+
+2023-06-09 03:47:50 - [TEST_STEP][PASSED] - accountNo = "1003": null
+
+2023-06-09 03:47:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/login/Login as Customer"), ["customerName":customerName]): Call Test Case 'Test Cases/modules/login/Login as Customer' successfully
+
+2023-06-09 03:47:50 - [TEST_CASE][PASSED] - Test Cases/modules/login/Login as Customer: Test Cases/modules/login/Login as Customer
+
+2023-06-09 03:47:50 - [TEST_STEP][PASSED] - openBrowser(indexURL): Browser is opened with url: 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login'
+
+2023-06-09 03:47:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-09 03:47:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-09 03:47:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login'
+
+2023-06-09 03:47:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-09 03:47:54 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-09 03:47:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/home-page/header_XYZ Bank"), 20): Object 'Object Repository/Web-XYZBank/home-page/header_XYZ Bank' is present
+
+2023-06-09 03:47:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/home-page/header_XYZ Bank' is present
+
+2023-06-09 03:47:54 - [TEST_STEP][PASSED] - pageTitle = getWindowTitle(): Current window's title is: 'XYZ Bank'
+
+2023-06-09 03:47:54 - [MESSAGE][PASSED] - Current window's title is: 'XYZ Bank'
+
+2023-06-09 03:47:54 - [TEST_STEP][PASSED] - verifyEqual(pageTitle, "XYZ Bank"): Actual object 'XYZ Bank' and expected object 'XYZ Bank' are equal
+
+2023-06-09 03:47:54 - [MESSAGE][PASSED] - Actual object 'XYZ Bank' and expected object 'XYZ Bank' are equal
+
+2023-06-09 03:47:54 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/home-page/button_Customer Login")): Object: 'Object Repository/Web-XYZBank/home-page/button_Customer Login' is clicked on
+
+2023-06-09 03:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/home-page/button_Customer Login' is clicked on
+
+2023-06-09 03:47:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/common/dropdown_Your Name"), 10): Object 'Object Repository/Web-XYZBank/customer-login/common/dropdown_Your Name' is present
+
+2023-06-09 03:47:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/common/dropdown_Your Name' is present
+
+2023-06-09 03:47:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Web-XYZBank/customer-login/common/dropdown_Your Name"), customerName, false): All options with label 'Hermoine Granger' are selected in object 'Object Repository/Web-XYZBank/customer-login/common/dropdown_Your Name' 
+
+2023-06-09 03:47:56 - [MESSAGE][PASSED] - All options with label 'Hermoine Granger' are selected in object 'Object Repository/Web-XYZBank/customer-login/common/dropdown_Your Name' 
+
+2023-06-09 03:47:56 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/common/button_Login")): Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Login' is clicked on
+
+2023-06-09 03:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Login' is clicked on
+
+2023-06-09 03:47:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/common/header_Customer Name"), 10): Object 'Object Repository/Web-XYZBank/customer-login/common/header_Customer Name' is present
+
+2023-06-09 03:47:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/common/header_Customer Name' is present
+
+2023-06-09 03:47:58 - [TEST_STEP][PASSED] - headerName = getText(findTestObject("Web-XYZBank/customer-login/common/header_Customer Name")): Text of object 'Object Repository/Web-XYZBank/customer-login/common/header_Customer Name' is: 'Hermoine Granger'
+
+2023-06-09 03:47:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web-XYZBank/customer-login/common/header_Customer Name' is: 'Hermoine Granger'
+
+2023-06-09 03:47:58 - [TEST_STEP][PASSED] - verifyMatch(headerName, customerName, false): Actual text 'Hermoine Granger' and expected text 'Hermoine Granger' are matched 
+
+2023-06-09 03:47:58 - [MESSAGE][PASSED] - Actual text 'Hermoine Granger' and expected text 'Hermoine Granger' are matched 
+
+2023-06-09 03:47:58 - [TEST_STEP][PASSED] - comment("Customer login successfuly as " + customerName): Customer login successfuly as Hermoine Granger
+
+2023-06-09 03:47:58 - [MESSAGE][INFO] - Customer login successfuly as Hermoine Granger
+
+2023-06-09 03:47:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/login/Login as Customer' successfully
+
+2023-06-09 03:47:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/customer-login/common/Select Account Number"), ["accountNo":accountNo]): Call Test Case 'Test Cases/modules/customer-login/common/Select Account Number' successfully
+
+2023-06-09 03:47:58 - [TEST_CASE][PASSED] - Test Cases/modules/customer-login/common/Select Account Number: Test Cases/modules/customer-login/common/Select Account Number
+
+2023-06-09 03:47:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Web-XYZBank/customer-login/common/dropdown_Account Selection"), accountNo, false): All options with label '1003' are selected in object 'Object Repository/Web-XYZBank/customer-login/common/dropdown_Account Selection' 
+
+2023-06-09 03:47:59 - [MESSAGE][PASSED] - All options with label '1003' are selected in object 'Object Repository/Web-XYZBank/customer-login/common/dropdown_Account Selection' 
+
+2023-06-09 03:47:59 - [TEST_STEP][PASSED] - accountNumber = getText(findTestObject("Web-XYZBank/customer-login/common/text_Account Number")): Text of object 'Object Repository/Web-XYZBank/customer-login/common/text_Account Number' is: '1003'
+
+2023-06-09 03:48:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web-XYZBank/customer-login/common/text_Account Number' is: '1003'
+
+2023-06-09 03:48:00 - [TEST_STEP][PASSED] - balance = getText(findTestObject("Web-XYZBank/customer-login/common/text_Current Balance")): Text of object 'Object Repository/Web-XYZBank/customer-login/common/text_Current Balance' is: '0'
+
+2023-06-09 03:48:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web-XYZBank/customer-login/common/text_Current Balance' is: '0'
+
+2023-06-09 03:48:00 - [TEST_STEP][PASSED] - currency = getText(findTestObject("Web-XYZBank/customer-login/common/text_Currency")): Text of object 'Object Repository/Web-XYZBank/customer-login/common/text_Currency' is: 'Rupee'
+
+2023-06-09 03:48:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web-XYZBank/customer-login/common/text_Currency' is: 'Rupee'
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - comment("Account Number: " + accountNumber + ", Balance: " + balance + ", Currency: " + currency): Account Number: 1003, Balance: 0, Currency: Rupee
+
+2023-06-09 03:48:01 - [MESSAGE][INFO] - Account Number: 1003, Balance: 0, Currency: Rupee
+
+2023-06-09 03:48:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/customer-login/common/Select Account Number' successfully
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/customer-login/common/Perform Transaction"), ["dataPath":transactionDataPath]): Call Test Case 'Test Cases/modules/customer-login/common/Perform Transaction' successfully
+
+2023-06-09 03:48:01 - [TEST_CASE][PASSED] - Test Cases/modules/customer-login/common/Perform Transaction: Test Cases/modules/customer-login/common/Perform Transaction
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - testData = findTestData(dataPath): null
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - actBalance = getText(findTestObject("Web-XYZBank/customer-login/common/text_Current Balance")).toInteger(): Text of object 'Object Repository/Web-XYZBank/customer-login/common/text_Current Balance' is: '0'
+
+2023-06-09 03:48:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web-XYZBank/customer-login/common/text_Current Balance' is: '0'
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - expBalance = actBalance: null
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - comment("Initial balance: " + actBalance): Initial balance: 0
+
+2023-06-09 03:48:01 - [MESSAGE][INFO] - Initial balance: 0
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - for ([index = 1, index <= testData.getRowNumbers(), (index++)]): null
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - amount = testData.getValue("Amount", index): null
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - transactionType = testData.getValue("Transaction Type", index): null
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - switch (transactionType.toLowerCase()): null
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - case "credit":: null
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/customer-login/deposit/Deposit Amount"), ["depositAmount":amount]): Call Test Case 'Test Cases/modules/customer-login/deposit/Deposit Amount' successfully
+
+2023-06-09 03:48:01 - [TEST_CASE][PASSED] - Test Cases/modules/customer-login/deposit/Deposit Amount: Test Cases/modules/customer-login/deposit/Deposit Amount
+
+2023-06-09 03:48:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/common/button_Deposit Tab"), 10): Object 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is present
+
+2023-06-09 03:48:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is present
+
+2023-06-09 03:48:02 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/common/button_Deposit Tab")): Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is clicked on
+
+2023-06-09 03:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is clicked on
+
+2023-06-09 03:48:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web-XYZBank/customer-login/deposit/input_Amount Deposit"), 10): Object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit' is visible
+
+2023-06-09 03:48:03 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit' is visible
+
+2023-06-09 03:48:03 - [TEST_STEP][PASSED] - setText(findTestObject("Web-XYZBank/customer-login/deposit/input_Amount Deposit"), depositAmount): Text '50000' is set on object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit'
+
+2023-06-09 03:48:03 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit'
+
+2023-06-09 03:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/deposit/button_Deposit")): Object: 'Object Repository/Web-XYZBank/customer-login/deposit/button_Deposit' is clicked on
+
+2023-06-09 03:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/deposit/button_Deposit' is clicked on
+
+2023-06-09 03:48:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/deposit/label_Deposit Successful"), 10): Object 'Object Repository/Web-XYZBank/customer-login/deposit/label_Deposit Successful' is present
+
+2023-06-09 03:48:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/deposit/label_Deposit Successful' is present
+
+2023-06-09 03:48:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/customer-login/deposit/Deposit Amount' successfully
+
+2023-06-09 03:48:04 - [TEST_STEP][PASSED] - expBalance = expBalance + amount.toInteger(): null
+
+2023-06-09 03:48:04 - [TEST_STEP][PASSED] - comment("Credit: " + amount + ", Current Balance: " + expBalance): Credit: 50000, Current Balance: 50000
+
+2023-06-09 03:48:04 - [MESSAGE][INFO] - Credit: 50000, Current Balance: 50000
+
+2023-06-09 03:48:04 - [TEST_STEP][PASSED] - break: null
+
+2023-06-09 03:48:04 - [TEST_STEP][PASSED] - amount = testData.getValue("Amount", index): null
+
+2023-06-09 03:48:04 - [TEST_STEP][PASSED] - transactionType = testData.getValue("Transaction Type", index): null
+
+2023-06-09 03:48:04 - [TEST_STEP][PASSED] - switch (transactionType.toLowerCase()): null
+
+2023-06-09 03:48:04 - [TEST_STEP][PASSED] - case "debit":: null
+
+2023-06-09 03:48:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/customer-login/withdrawal/Withdraw Amount"), ["withdrawAmount":amount]): Call Test Case 'Test Cases/modules/customer-login/withdrawal/Withdraw Amount' successfully
+
+2023-06-09 03:48:04 - [TEST_CASE][PASSED] - Test Cases/modules/customer-login/withdrawal/Withdraw Amount: Test Cases/modules/customer-login/withdrawal/Withdraw Amount
+
+2023-06-09 03:48:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/common/button_Withdrawl Tab"), 10): Object 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is present
+
+2023-06-09 03:48:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is present
+
+2023-06-09 03:48:05 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/common/button_Withdrawl Tab")): Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is clicked on
+
+2023-06-09 03:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is clicked on
+
+2023-06-09 03:48:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn"), 10): Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn' is visible
+
+2023-06-09 03:48:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn' is visible
+
+2023-06-09 03:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn"), withdrawAmount): Text '3000' is set on object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn'
+
+2023-06-09 03:48:07 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn'
+
+2023-06-09 03:48:07 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/withdrawal/button_Withdraw")): Object: 'Object Repository/Web-XYZBank/customer-login/withdrawal/button_Withdraw' is clicked on
+
+2023-06-09 03:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/withdrawal/button_Withdraw' is clicked on
+
+2023-06-09 03:48:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/withdrawal/label_Transaction Successful"), 10): Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/label_Transaction Successful' is present
+
+2023-06-09 03:48:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/label_Transaction Successful' is present
+
+2023-06-09 03:48:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/customer-login/withdrawal/Withdraw Amount' successfully
+
+2023-06-09 03:48:07 - [TEST_STEP][PASSED] - expBalance = expBalance - amount.toInteger(): null
+
+2023-06-09 03:48:07 - [TEST_STEP][PASSED] - comment("Debit: " + amount + ", Current Balance: " + expBalance): Debit: 3000, Current Balance: 47000
+
+2023-06-09 03:48:07 - [MESSAGE][INFO] - Debit: 3000, Current Balance: 47000
+
+2023-06-09 03:48:07 - [TEST_STEP][PASSED] - break: null
+
+2023-06-09 03:48:07 - [TEST_STEP][PASSED] - amount = testData.getValue("Amount", index): null
+
+2023-06-09 03:48:07 - [TEST_STEP][PASSED] - transactionType = testData.getValue("Transaction Type", index): null
+
+2023-06-09 03:48:07 - [TEST_STEP][PASSED] - switch (transactionType.toLowerCase()): null
+
+2023-06-09 03:48:07 - [TEST_STEP][PASSED] - case "debit":: null
+
+2023-06-09 03:48:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/customer-login/withdrawal/Withdraw Amount"), ["withdrawAmount":amount]): Call Test Case 'Test Cases/modules/customer-login/withdrawal/Withdraw Amount' successfully
+
+2023-06-09 03:48:08 - [TEST_CASE][PASSED] - Test Cases/modules/customer-login/withdrawal/Withdraw Amount: Test Cases/modules/customer-login/withdrawal/Withdraw Amount
+
+2023-06-09 03:48:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/common/button_Withdrawl Tab"), 10): Object 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is present
+
+2023-06-09 03:48:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is present
+
+2023-06-09 03:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/common/button_Withdrawl Tab")): Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is clicked on
+
+2023-06-09 03:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is clicked on
+
+2023-06-09 03:48:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn"), 10): Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn' is visible
+
+2023-06-09 03:48:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn' is visible
+
+2023-06-09 03:48:09 - [TEST_STEP][PASSED] - setText(findTestObject("Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn"), withdrawAmount): Text '2000' is set on object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn'
+
+2023-06-09 03:48:09 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn'
+
+2023-06-09 03:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/withdrawal/button_Withdraw")): Object: 'Object Repository/Web-XYZBank/customer-login/withdrawal/button_Withdraw' is clicked on
+
+2023-06-09 03:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/withdrawal/button_Withdraw' is clicked on
+
+2023-06-09 03:48:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/withdrawal/label_Transaction Successful"), 10): Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/label_Transaction Successful' is present
+
+2023-06-09 03:48:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/label_Transaction Successful' is present
+
+2023-06-09 03:48:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/customer-login/withdrawal/Withdraw Amount' successfully
+
+2023-06-09 03:48:10 - [TEST_STEP][PASSED] - expBalance = expBalance - amount.toInteger(): null
+
+2023-06-09 03:48:10 - [TEST_STEP][PASSED] - comment("Debit: " + amount + ", Current Balance: " + expBalance): Debit: 2000, Current Balance: 45000
+
+2023-06-09 03:48:10 - [MESSAGE][INFO] - Debit: 2000, Current Balance: 45000
+
+2023-06-09 03:48:10 - [TEST_STEP][PASSED] - break: null
+
+2023-06-09 03:48:10 - [TEST_STEP][PASSED] - amount = testData.getValue("Amount", index): null
+
+2023-06-09 03:48:10 - [TEST_STEP][PASSED] - transactionType = testData.getValue("Transaction Type", index): null
+
+2023-06-09 03:48:10 - [TEST_STEP][PASSED] - switch (transactionType.toLowerCase()): null
+
+2023-06-09 03:48:10 - [TEST_STEP][PASSED] - case "credit":: null
+
+2023-06-09 03:48:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/customer-login/deposit/Deposit Amount"), ["depositAmount":amount]): Call Test Case 'Test Cases/modules/customer-login/deposit/Deposit Amount' successfully
+
+2023-06-09 03:48:10 - [TEST_CASE][PASSED] - Test Cases/modules/customer-login/deposit/Deposit Amount: Test Cases/modules/customer-login/deposit/Deposit Amount
+
+2023-06-09 03:48:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/common/button_Deposit Tab"), 10): Object 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is present
+
+2023-06-09 03:48:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is present
+
+2023-06-09 03:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/common/button_Deposit Tab")): Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is clicked on
+
+2023-06-09 03:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is clicked on
+
+2023-06-09 03:48:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web-XYZBank/customer-login/deposit/input_Amount Deposit"), 10): Object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit' is visible
+
+2023-06-09 03:48:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit' is visible
+
+2023-06-09 03:48:11 - [TEST_STEP][PASSED] - setText(findTestObject("Web-XYZBank/customer-login/deposit/input_Amount Deposit"), depositAmount): Text '5000' is set on object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit'
+
+2023-06-09 03:48:12 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit'
+
+2023-06-09 03:48:12 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/deposit/button_Deposit")): Object: 'Object Repository/Web-XYZBank/customer-login/deposit/button_Deposit' is clicked on
+
+2023-06-09 03:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/deposit/button_Deposit' is clicked on
+
+2023-06-09 03:48:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/deposit/label_Deposit Successful"), 10): Object 'Object Repository/Web-XYZBank/customer-login/deposit/label_Deposit Successful' is present
+
+2023-06-09 03:48:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/deposit/label_Deposit Successful' is present
+
+2023-06-09 03:48:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/customer-login/deposit/Deposit Amount' successfully
+
+2023-06-09 03:48:13 - [TEST_STEP][PASSED] - expBalance = expBalance + amount.toInteger(): null
+
+2023-06-09 03:48:13 - [TEST_STEP][PASSED] - comment("Credit: " + amount + ", Current Balance: " + expBalance): Credit: 5000, Current Balance: 50000
+
+2023-06-09 03:48:13 - [MESSAGE][INFO] - Credit: 5000, Current Balance: 50000
+
+2023-06-09 03:48:13 - [TEST_STEP][PASSED] - break: null
+
+2023-06-09 03:48:13 - [TEST_STEP][PASSED] - amount = testData.getValue("Amount", index): null
+
+2023-06-09 03:48:13 - [TEST_STEP][PASSED] - transactionType = testData.getValue("Transaction Type", index): null
+
+2023-06-09 03:48:13 - [TEST_STEP][PASSED] - switch (transactionType.toLowerCase()): null
+
+2023-06-09 03:48:13 - [TEST_STEP][PASSED] - case "debit":: null
+
+2023-06-09 03:48:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/customer-login/withdrawal/Withdraw Amount"), ["withdrawAmount":amount]): Call Test Case 'Test Cases/modules/customer-login/withdrawal/Withdraw Amount' successfully
+
+2023-06-09 03:48:13 - [TEST_CASE][PASSED] - Test Cases/modules/customer-login/withdrawal/Withdraw Amount: Test Cases/modules/customer-login/withdrawal/Withdraw Amount
+
+2023-06-09 03:48:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/common/button_Withdrawl Tab"), 10): Object 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is present
+
+2023-06-09 03:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is present
+
+2023-06-09 03:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/common/button_Withdrawl Tab")): Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is clicked on
+
+2023-06-09 03:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is clicked on
+
+2023-06-09 03:48:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn"), 10): Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn' is visible
+
+2023-06-09 03:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn' is visible
+
+2023-06-09 03:48:14 - [TEST_STEP][PASSED] - setText(findTestObject("Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn"), withdrawAmount): Text '10000' is set on object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn'
+
+2023-06-09 03:48:15 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn'
+
+2023-06-09 03:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/withdrawal/button_Withdraw")): Object: 'Object Repository/Web-XYZBank/customer-login/withdrawal/button_Withdraw' is clicked on
+
+2023-06-09 03:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/withdrawal/button_Withdraw' is clicked on
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/withdrawal/label_Transaction Successful"), 10): Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/label_Transaction Successful' is present
+
+2023-06-09 03:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/label_Transaction Successful' is present
+
+2023-06-09 03:48:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/customer-login/withdrawal/Withdraw Amount' successfully
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - expBalance = expBalance - amount.toInteger(): null
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - comment("Debit: " + amount + ", Current Balance: " + expBalance): Debit: 10000, Current Balance: 40000
+
+2023-06-09 03:48:16 - [MESSAGE][INFO] - Debit: 10000, Current Balance: 40000
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - break: null
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - amount = testData.getValue("Amount", index): null
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - transactionType = testData.getValue("Transaction Type", index): null
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - switch (transactionType.toLowerCase()): null
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - case "debit":: null
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/customer-login/withdrawal/Withdraw Amount"), ["withdrawAmount":amount]): Call Test Case 'Test Cases/modules/customer-login/withdrawal/Withdraw Amount' successfully
+
+2023-06-09 03:48:16 - [TEST_CASE][PASSED] - Test Cases/modules/customer-login/withdrawal/Withdraw Amount: Test Cases/modules/customer-login/withdrawal/Withdraw Amount
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/common/button_Withdrawl Tab"), 10): Object 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is present
+
+2023-06-09 03:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is present
+
+2023-06-09 03:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/common/button_Withdrawl Tab")): Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is clicked on
+
+2023-06-09 03:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Withdrawl Tab' is clicked on
+
+2023-06-09 03:48:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn"), 10): Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn' is visible
+
+2023-06-09 03:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn' is visible
+
+2023-06-09 03:48:17 - [TEST_STEP][PASSED] - setText(findTestObject("Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn"), withdrawAmount): Text '15000' is set on object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn'
+
+2023-06-09 03:48:18 - [MESSAGE][PASSED] - Text '15000' is set on object 'Object Repository/Web-XYZBank/customer-login/withdrawal/input_Amount Withdrawn'
+
+2023-06-09 03:48:18 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/withdrawal/button_Withdraw")): Object: 'Object Repository/Web-XYZBank/customer-login/withdrawal/button_Withdraw' is clicked on
+
+2023-06-09 03:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/withdrawal/button_Withdraw' is clicked on
+
+2023-06-09 03:48:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/withdrawal/label_Transaction Successful"), 10): Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/label_Transaction Successful' is present
+
+2023-06-09 03:48:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/withdrawal/label_Transaction Successful' is present
+
+2023-06-09 03:48:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/customer-login/withdrawal/Withdraw Amount' successfully
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - expBalance = expBalance - amount.toInteger(): null
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - comment("Debit: " + amount + ", Current Balance: " + expBalance): Debit: 15000, Current Balance: 25000
+
+2023-06-09 03:48:19 - [MESSAGE][INFO] - Debit: 15000, Current Balance: 25000
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - break: null
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - amount = testData.getValue("Amount", index): null
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - transactionType = testData.getValue("Transaction Type", index): null
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - switch (transactionType.toLowerCase()): null
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - case "credit":: null
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/modules/customer-login/deposit/Deposit Amount"), ["depositAmount":amount]): Call Test Case 'Test Cases/modules/customer-login/deposit/Deposit Amount' successfully
+
+2023-06-09 03:48:19 - [TEST_CASE][PASSED] - Test Cases/modules/customer-login/deposit/Deposit Amount: Test Cases/modules/customer-login/deposit/Deposit Amount
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/common/button_Deposit Tab"), 10): Object 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is present
+
+2023-06-09 03:48:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is present
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/common/button_Deposit Tab")): Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is clicked on
+
+2023-06-09 03:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/common/button_Deposit Tab' is clicked on
+
+2023-06-09 03:48:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web-XYZBank/customer-login/deposit/input_Amount Deposit"), 10): Object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit' is visible
+
+2023-06-09 03:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit' is visible
+
+2023-06-09 03:48:20 - [TEST_STEP][PASSED] - setText(findTestObject("Web-XYZBank/customer-login/deposit/input_Amount Deposit"), depositAmount): Text '1500' is set on object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit'
+
+2023-06-09 03:48:21 - [MESSAGE][PASSED] - Text '1500' is set on object 'Object Repository/Web-XYZBank/customer-login/deposit/input_Amount Deposit'
+
+2023-06-09 03:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Web-XYZBank/customer-login/deposit/button_Deposit")): Object: 'Object Repository/Web-XYZBank/customer-login/deposit/button_Deposit' is clicked on
+
+2023-06-09 03:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web-XYZBank/customer-login/deposit/button_Deposit' is clicked on
+
+2023-06-09 03:48:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Web-XYZBank/customer-login/deposit/label_Deposit Successful"), 10): Object 'Object Repository/Web-XYZBank/customer-login/deposit/label_Deposit Successful' is present
+
+2023-06-09 03:48:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web-XYZBank/customer-login/deposit/label_Deposit Successful' is present
+
+2023-06-09 03:48:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/customer-login/deposit/Deposit Amount' successfully
+
+2023-06-09 03:48:21 - [TEST_STEP][PASSED] - expBalance = expBalance + amount.toInteger(): null
+
+2023-06-09 03:48:21 - [TEST_STEP][PASSED] - comment("Credit: " + amount + ", Current Balance: " + expBalance): Credit: 1500, Current Balance: 26500
+
+2023-06-09 03:48:21 - [MESSAGE][INFO] - Credit: 1500, Current Balance: 26500
+
+2023-06-09 03:48:21 - [TEST_STEP][PASSED] - break: null
+
+2023-06-09 03:48:21 - [TEST_STEP][PASSED] - actBalance = getText(findTestObject("Web-XYZBank/customer-login/common/text_Current Balance")).toInteger(): Text of object 'Object Repository/Web-XYZBank/customer-login/common/text_Current Balance' is: '26500'
+
+2023-06-09 03:48:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web-XYZBank/customer-login/common/text_Current Balance' is: '26500'
+
+2023-06-09 03:48:22 - [TEST_STEP][PASSED] - verifyEqual(actBalance, expBalance): Actual object '26,500' and expected object '26,500' are equal
+
+2023-06-09 03:48:22 - [MESSAGE][PASSED] - Actual object '26,500' and expected object '26,500' are equal
+
+2023-06-09 03:48:22 - [TEST_STEP][PASSED] - comment("Verified that the current balance is tally with Balance section which is " + expBalance): Verified that the current balance is tally with Balance section which is 26500
+
+2023-06-09 03:48:22 - [MESSAGE][INFO] - Verified that the current balance is tally with Balance section which is 26500
+
+2023-06-09 03:48:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/modules/customer-login/common/Perform Transaction' successfully
+
+2023-06-09 03:48:22 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-06-09 03:48:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-09 03:48:22 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-09 03:48:22 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-09 03:47:05 - [TEST_SUITE][PASSED] - TS01-XYZBank: Test Cases/e2e/T02-Customer Login-Perform Debit and Credit Transactions]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
