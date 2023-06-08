@@ -1,4 +1,4 @@
-.gradle
+*.gradle
 
 bin
 
@@ -15,4 +15,4 @@ build
 
 .project
 
-.prj
+*.prj
