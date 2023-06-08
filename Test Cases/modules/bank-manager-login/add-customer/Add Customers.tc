@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Customers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60291782-94f1-4baa-aa2d-d0bd19001423</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>585213f4-d1d6-4cdd-b77d-bfa42944a38a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Data Files/CustomersData'</defaultValue>
+      <description>default data path</description>
+      <id>585213f4-d1d6-4cdd-b77d-bfa42944a38a</id>
+      <masked>false</masked>
+      <name>dataPath</name>
+   </variable>
+</TestCaseEntity>

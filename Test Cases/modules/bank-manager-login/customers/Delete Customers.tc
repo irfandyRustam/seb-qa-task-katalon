@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Customers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85c5e75c-e002-4eee-8b0f-8df0751c8551</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e049ea26-b819-4614-b8d9-c66a382afa63</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Data Files/CustomersDataToDelete'</defaultValue>
+      <description>default data path</description>
+      <id>e049ea26-b819-4614-b8d9-c66a382afa63</id>
+      <masked>false</masked>
+      <name>dataPath</name>
+   </variable>
+</TestCaseEntity>

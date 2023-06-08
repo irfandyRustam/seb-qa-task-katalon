@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>T02-Customer Login-Perform Debit and Credit Transactions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>416ce1b6-ef46-4ea2-9387-3ed6e521161a</testCaseGuid>
+</TestCaseEntity>

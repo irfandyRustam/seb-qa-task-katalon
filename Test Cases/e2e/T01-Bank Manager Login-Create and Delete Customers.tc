@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>T01-Bank Manager Login-Create and Delete Customers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33d4f04f-2693-4050-9807-ac4fba55570d</testCaseGuid>
+</TestCaseEntity>

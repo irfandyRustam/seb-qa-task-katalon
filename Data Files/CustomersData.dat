@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>CustomersData</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>592e2aef-1e24-4785-b19d-b87f685adc31</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Christopher Connely L789C349</data>
+   <data>Frank Christopher A897N450</data>
+   <data>Christopher Minka M098Q585</data>
+   <data>Connely Jackson L789C349</data>
+   <data>Jackson Frank L789C349</data>
+   <data>Minka Jackson A897N450</data>
+   <data>Jackson Connely L789C349</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>First Name</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Last Name</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Post Code</name>
+      <size>7</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
