@@ -12,7 +12,7 @@
       <variableId>c596b36a-ed90-4060-b956-d8c17b8e04ae</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Data Files/Transaction'</defaultValue>
+      <defaultValue>'Data Files/Transactions'</defaultValue>
       <description></description>
       <id>c596b36a-ed90-4060-b956-d8c17b8e04ae</id>
       <masked>false</masked>

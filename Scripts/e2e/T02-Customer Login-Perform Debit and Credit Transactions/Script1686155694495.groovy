@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String transactionDataPath = 'Data Files/Transaction'
+String transactionDataPath = 'Data Files/Transactions'
 String customerName = "Hermoine Granger"
 String accountNo = "1003"
 
