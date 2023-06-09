@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>T03-Petstore-CreateUpdateDeleteUser</name>
+   <name>T03-Petstore-CRUD-Test</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>3ae93d86-a7fd-475f-9fff-6822dae9efa3</testCaseGuid>
