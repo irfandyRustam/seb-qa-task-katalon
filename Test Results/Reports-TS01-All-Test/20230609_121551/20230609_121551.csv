@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01-All-Test,Chrome 114.0.0.0,,,2023-06-09 12:16:11,2023-06-09 12:17:46,1m - 35.282s,PASSED
+,,,,,,,
+Test Cases/e2e/T01-Bank Manager Login-Create and Delete Customers,Chrome 114.0.0.0,,,2023-06-09 12:16:12,2023-06-09 12:16:59,47.181s,PASSED
+"customerDataPath = ""Data Files/CustomersData""",Chrome 114.0.0.0,,,2023-06-09 12:16:12,2023-06-09 12:16:12,0.002s,PASSED
+"customerToDeletePath = ""Data Files/CustomersDataToDelete""",Chrome 114.0.0.0,,,2023-06-09 12:16:12,2023-06-09 12:16:12,0.008s,PASSED
+"callTestCase(findTestCase(""Test Cases/modules/login/Login as Bank Manager""), null)",Chrome 114.0.0.0,,,2023-06-09 12:16:12,2023-06-09 12:16:22,9.836s,PASSED
+"callTestCase(findTestCase(""Test Cases/modules/bank-manager-login/add-customer/Add Customers""), [""dataPath"":customerDataPath])",Chrome 114.0.0.0,,,2023-06-09 12:16:22,2023-06-09 12:16:51,29.041s,PASSED
+"callTestCase(findTestCase(""Test Cases/modules/bank-manager-login/customers/Verify Customers Added in Customers Record""), [""dataPath"":customerDataPath])",Chrome 114.0.0.0,,,2023-06-09 12:16:51,2023-06-09 12:16:56,4.616s,PASSED
+"callTestCase(findTestCase(""Test Cases/modules/bank-manager-login/customers/Delete Customers""), [""dataPath"":customerToDeletePath])",Chrome 114.0.0.0,,,2023-06-09 12:16:56,2023-06-09 12:16:58,2.524s,PASSED
+Start tear down : tearDownTestCase,Chrome 114.0.0.0,,,2023-06-09 12:16:58,2023-06-09 12:16:59,0.656s,PASSED
+,,,,,,,
+Test Cases/e2e/T02-Customer Login-Perform Debit and Credit Transactions,Chrome 114.0.0.0,,,2023-06-09 12:16:59,2023-06-09 12:17:31,32.433s,PASSED
+"transactionDataPath = ""Data Files/Transactions""",Chrome 114.0.0.0,,,2023-06-09 12:16:59,2023-06-09 12:16:59,0.000s,PASSED
+"customerName = ""Hermoine Granger""",Chrome 114.0.0.0,,,2023-06-09 12:16:59,2023-06-09 12:16:59,0.002s,PASSED
+"accountNo = ""1003""",Chrome 114.0.0.0,,,2023-06-09 12:16:59,2023-06-09 12:16:59,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/modules/login/Login as Customer""), [""customerName"":customerName])",Chrome 114.0.0.0,,,2023-06-09 12:16:59,2023-06-09 12:17:08,8.376s,PASSED
+"callTestCase(findTestCase(""Test Cases/modules/customer-login/common/Select Account Number""), [""accountNo"":accountNo])",Chrome 114.0.0.0,,,2023-06-09 12:17:08,2023-06-09 12:17:10,2.084s,PASSED
+"callTestCase(findTestCase(""Test Cases/modules/customer-login/common/Perform Transaction""), [""dataPath"":transactionDataPath])",Chrome 114.0.0.0,,,2023-06-09 12:17:10,2023-06-09 12:17:31,21.184s,PASSED
+Start tear down : tearDownTestCase,Chrome 114.0.0.0,,,2023-06-09 12:17:31,2023-06-09 12:17:31,0.194s,PASSED
+,,,,,,,
+Test Cases/API/T03-Petstore-CRUD-Test,Chrome 114.0.0.0,,,2023-06-09 12:17:31,2023-06-09 12:17:46,15.126s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),Chrome 114.0.0.0,,,2023-06-09 12:17:31,2023-06-09 12:17:31,0.020s,PASSED
+request = new com.kms.katalon.core.testobject.RequestObject(),Chrome 114.0.0.0,,,2023-06-09 12:17:31,2023-06-09 12:17:31,0.021s,PASSED
+response = new com.kms.katalon.core.testobject.ResponseObject(),Chrome 114.0.0.0,,,2023-06-09 12:17:31,2023-06-09 12:17:31,0.017s,PASSED
+randomNo = Integer.parseInt(RandomStringUtils.randomNumeric(2)),Chrome 114.0.0.0,,,2023-06-09 12:17:31,2023-06-09 12:17:31,0.019s,PASSED
+randomUsername = RandomStringUtils.randomAlphanumeric(10),Chrome 114.0.0.0,,,2023-06-09 12:17:31,2023-06-09 12:17:31,0.001s,PASSED
+randomFName = RandomStringUtils.randomAlphanumeric(5),Chrome 114.0.0.0,,,2023-06-09 12:17:31,2023-06-09 12:17:31,0.000s,PASSED
+randomLName = RandomStringUtils.randomAlphanumeric(5),Chrome 114.0.0.0,,,2023-06-09 12:17:31,2023-06-09 12:17:31,0.000s,PASSED
+"randomEmail = randomFName + randomLName + ""@email.com""",Chrome 114.0.0.0,,,2023-06-09 12:17:32,2023-06-09 12:17:32,0.001s,PASSED
+randomPassword = RandomStringUtils.randomAlphanumeric(10),Chrome 114.0.0.0,,,2023-06-09 12:17:32,2023-06-09 12:17:32,0.000s,PASSED
+"requestBody = [""id"":randomNo, ""username"":randomUsername, ""firstName"":randomFName, ""lastName"":randomLName, ""email"":randomEmail, ""password"":randomPassword, ... ]",Chrome 114.0.0.0,,,2023-06-09 12:17:32,2023-06-09 12:17:32,0.000s,PASSED
+username = username,Chrome 114.0.0.0,,,2023-06-09 12:17:32,2023-06-09 12:17:32,0.004s,PASSED
+"logInfo(""Request Body: "" + requestBody)",Chrome 114.0.0.0,,,2023-06-09 12:17:32,2023-06-09 12:17:32,0.013s,PASSED
+"response = sendRequest(findTestObject(""API-Petstore/POST Create user"", requestBody))",Chrome 114.0.0.0,,,2023-06-09 12:17:32,2023-06-09 12:17:40,8.024s,PASSED
+"verifyResponse(response, 200)",Chrome 114.0.0.0,,,2023-06-09 12:17:40,2023-06-09 12:17:40,0.001s,PASSED
+"verifyResponseStatusCode(response, expectedStatusCode, OPTIONAL)",Chrome 114.0.0.0,,,2023-06-09 12:17:40,2023-06-09 12:17:40,0.010s,PASSED
+responseBody = response.getResponseText(),Chrome 114.0.0.0,,,2023-06-09 12:17:40,2023-06-09 12:17:40,0.002s,PASSED
+"logInfo(""Response: "" + responseBody)",Chrome 114.0.0.0,,,2023-06-09 12:17:40,2023-06-09 12:17:40,0.001s,PASSED
+return responseBody,Chrome 114.0.0.0,,,2023-06-09 12:17:40,2023-06-09 12:17:40,0.001s,PASSED
+"response = sendRequest(findTestObject(""API-Petstore/GET User by username"", [""username"":username]))",Chrome 114.0.0.0,,,2023-06-09 12:17:40,2023-06-09 12:17:41,1.362s,PASSED
+"verifyResponse(response, 200)",Chrome 114.0.0.0,,,2023-06-09 12:17:41,2023-06-09 12:17:41,0.000s,PASSED
+"verifyResponseStatusCode(response, expectedStatusCode, OPTIONAL)",Chrome 114.0.0.0,,,2023-06-09 12:17:41,2023-06-09 12:17:41,0.002s,PASSED
+responseBody = response.getResponseText(),Chrome 114.0.0.0,,,2023-06-09 12:17:41,2023-06-09 12:17:41,0.000s,PASSED
+"logInfo(""Response: "" + responseBody)",Chrome 114.0.0.0,,,2023-06-09 12:17:41,2023-06-09 12:17:41,0.001s,PASSED
+return responseBody,Chrome 114.0.0.0,,,2023-06-09 12:17:41,2023-06-09 12:17:41,0.000s,PASSED
+"response = sendRequest(findTestObject(""API-Petstore/PUT Update username"", [""username"":username]))",Chrome 114.0.0.0,,,2023-06-09 12:17:41,2023-06-09 12:17:42,1.451s,PASSED
+"verifyResponse(response, 200)",Chrome 114.0.0.0,,,2023-06-09 12:17:42,2023-06-09 12:17:42,0.001s,PASSED
+"verifyResponseStatusCode(response, expectedStatusCode, OPTIONAL)",Chrome 114.0.0.0,,,2023-06-09 12:17:42,2023-06-09 12:17:42,0.003s,PASSED
+responseBody = response.getResponseText(),Chrome 114.0.0.0,,,2023-06-09 12:17:42,2023-06-09 12:17:42,0.000s,PASSED
+"logInfo(""Response: "" + responseBody)",Chrome 114.0.0.0,,,2023-06-09 12:17:42,2023-06-09 12:17:42,0.001s,PASSED
+return responseBody,Chrome 114.0.0.0,,,2023-06-09 12:17:42,2023-06-09 12:17:42,0.001s,PASSED
+"response = sendRequest(findTestObject(""API-Petstore/GET User by username"", [""username"":username]))",Chrome 114.0.0.0,,,2023-06-09 12:17:42,2023-06-09 12:17:44,1.321s,PASSED
+"verifyResponse(response, 200)",Chrome 114.0.0.0,,,2023-06-09 12:17:44,2023-06-09 12:17:44,0.000s,PASSED
+"verifyResponseStatusCode(response, expectedStatusCode, OPTIONAL)",Chrome 114.0.0.0,,,2023-06-09 12:17:44,2023-06-09 12:17:44,0.002s,PASSED
+responseBody = response.getResponseText(),Chrome 114.0.0.0,,,2023-06-09 12:17:44,2023-06-09 12:17:44,0.000s,PASSED
+"logInfo(""Response: "" + responseBody)",Chrome 114.0.0.0,,,2023-06-09 12:17:44,2023-06-09 12:17:44,0.001s,PASSED
+return responseBody,Chrome 114.0.0.0,,,2023-06-09 12:17:44,2023-06-09 12:17:44,0.000s,PASSED
+"response = sendRequest(findTestObject(""API-Petstore/DELETE User"", [""username"":username]))",Chrome 114.0.0.0,,,2023-06-09 12:17:44,2023-06-09 12:17:45,1.326s,PASSED
+"verifyResponse(response, 200)",Chrome 114.0.0.0,,,2023-06-09 12:17:45,2023-06-09 12:17:45,0.001s,PASSED
+"verifyResponseStatusCode(response, expectedStatusCode, OPTIONAL)",Chrome 114.0.0.0,,,2023-06-09 12:17:45,2023-06-09 12:17:45,0.003s,PASSED
+responseBody = response.getResponseText(),Chrome 114.0.0.0,,,2023-06-09 12:17:45,2023-06-09 12:17:45,0.000s,PASSED
+"logInfo(""Response: "" + responseBody)",Chrome 114.0.0.0,,,2023-06-09 12:17:45,2023-06-09 12:17:45,0.001s,PASSED
+return responseBody,Chrome 114.0.0.0,,,2023-06-09 12:17:45,2023-06-09 12:17:45,0.000s,PASSED
+"response = sendRequest(findTestObject(""API-Petstore/GET User by username"", [""username"":username]))",Chrome 114.0.0.0,,,2023-06-09 12:17:45,2023-06-09 12:17:46,1.261s,PASSED
+"verifyResponse(response, 404)",Chrome 114.0.0.0,,,2023-06-09 12:17:46,2023-06-09 12:17:46,0.000s,PASSED
+"verifyResponseStatusCode(response, expectedStatusCode, OPTIONAL)",Chrome 114.0.0.0,,,2023-06-09 12:17:46,2023-06-09 12:17:46,0.003s,PASSED
+responseBody = response.getResponseText(),Chrome 114.0.0.0,,,2023-06-09 12:17:46,2023-06-09 12:17:46,0.000s,PASSED
+"logInfo(""Response: "" + responseBody)",Chrome 114.0.0.0,,,2023-06-09 12:17:46,2023-06-09 12:17:46,0.000s,PASSED
+return responseBody,Chrome 114.0.0.0,,,2023-06-09 12:17:46,2023-06-09 12:17:46,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 114.0.0.0,,,2023-06-09 12:17:46,2023-06-09 12:17:46,0.021s,PASSED

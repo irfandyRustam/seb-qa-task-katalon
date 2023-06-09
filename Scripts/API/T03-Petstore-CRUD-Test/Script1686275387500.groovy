@@ -26,7 +26,7 @@ def requestBody = [('id') : randomNo, ('username') : randomUsername, ('firstName
 String username = requestBody.("username")
 KeywordUtil.logInfo("Request Body: " + requestBody)
 
-// Function to send request and verify response status code
+// Function to verify and log response
 def verifyResponse(response, expectedStatusCode) {
 	WS.verifyResponseStatusCode(response, expectedStatusCode, FailureHandling.OPTIONAL)
 	def responseBody = response.getResponseText()
