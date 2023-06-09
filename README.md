@@ -31,3 +31,7 @@ Before running the Katalon Studio project, ensure that you have the following pr
 3. Find the .html file report and double click it --> eg: 20230608_231145.html
 ![Screenshot 2023-06-09 at 2 28 00 AM](https://github.com/irfandyRustam/seb-qa-task-katalon/assets/62695268/78c05898-6b40-4806-b1a1-6de037f5bcd1)
 
+## Sample Test Results
+1. Pleaser refer to the folder "Test Results" > Under that the sample test execution reports have been created
+2. Open the .html report file to view the results
+
